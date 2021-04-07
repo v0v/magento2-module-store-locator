@@ -1,0 +1,68 @@
+"Opening Hours","Рабочие часы"
+"Special Opening Hours","Special Opening Hours"
+"Add Special Opening Hours","Add Special Opening Hours"
+"Contact %1","Contact %1"
+Home,Home
+"Go to Home Page","Go to Home Page"
+"Our stores","ПВЗ"
+Contact,Contact
+"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Thanks for contacting us with your comments and questions. We'll respond to you very soon."
+"We can't process your request right now. Sorry, that's all we know.","We can't process your request right now. Sorry, that's all we know."
+"We are sorry, an error occured when switching retailer.","We are sorry, an error occured when switching retailer."
+"Retailer url_key ""%1"" already exists.","Retailer url_key ""%1"" already exists."
+"Name cannot be empty","Name cannot be empty"
+"Contact form cannot be empty","Contact form cannot be empty"
+"Contact mail cannot be empty","Contact mail cannot be empty"
+"Unable to validate form","Unable to validate form"
+"Unable to retrieve retailer informations","Unable to retrieve retailer informations"
+"Geolocalize me","Geolocalize me"
+"City, Zipcode, Department, ...","введите город или регион для поиска ..."
+Search,Поиск
+"* Required Fields","* Required Fields"
+"Write Us","Напишите нам"
+Name,Имя
+Email,e-mail
+"Phone Number","Телефон"
+"What’s on your mind?","What’s on your mind?"
+Submit,Submit
+Telephone,Телефон
+Tel,Тел
+Fax,Факс
+Mail,e-mail
+"Contact Us","Связаться"
+"Store Address","Адрес ПВЗ"
+Go there,Go there
+"Choose this store","Выбрать этот ПВЗ"
+Close,Close
+Details,Details
+"Open Today","Сегодня открыто"
+"Open Today (%1)","Сегодня открыто (%1)"
+"Closing soon (%1)","Скоро закрывается (%1)"
+"Closed (%1)","Закрыто (%1)"
+"Closed","Закрыто"
+"Find a store ...","Найти ПВЗ ..."
+"My store : %s","Мой ПВЗ : %s"
+Address,Адрес
+Street,Улица
+Postcode,Индекс
+City,Город
+Country,Страна
+Latitude,Широта
+Longitude,Долгота
+"Find a store :","Найти ПВЗ :"
+"%s result(s)","%s результатов"
+"%s shop(s) nearby","% ПВЗ поблизости"
+"View all","Все ПВЗ"
+"Shop Search","Поиск ПВЗ"
+"View Shop Page","View Shop Page"
+"Double-click on an opening hour range to delete it.","Double-click on an opening hour range to delete it."
+"Narrow your search to see store details","Слишком много ПВЗ на карте. Для эффективного поиска нужного ПВЗ, пожалуйста, уменьшите область поиска на карте"
+"Maximum number of visible stores","Maximum number of visible stores"
+"Above this limit, the list of stores will be not display","Above this limit, the list of stores will be not display"
+"Apply for retailers","Apply for retailers"
+"Shops nearby", "ПВЗ поблизости"
+"%s stores","%s ПВЗ"
+"Search shop","Поиск ПВЗ"
+"List","Списком"
+"Map","На карте"
+"Back to result","Вернуться к списку ПВЗ"

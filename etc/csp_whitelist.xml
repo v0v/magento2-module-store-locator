@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="api-mapbox" type="host">https://*.mapbox.com</value>
+                <value id="api-maps-yandex" type="host">https://api-maps.yandex.ru</value>
+                <value id="yastatic" type="host">https://yastatic.net</value>
+                <value id="google-analytics" type="host">https://www.google-analytics.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="api-mapbox" type="host">https://*.mapbox.com</value>
+                <value id="api-osm" type="host">https://*.openstreetmap.org</value>
+                <value id="api-maps-yandex" type="host">https://api-maps.yandex.ru</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="google-analytics" type="host">https://www.google-analytics.com</value>
+                <value id="api-ipstack" type="host">http://api.ipstack.com</value>
+                <value id="api-ipstack-s" type="host">https://api.ipstack.com</value>
+                <value id="api-mapbox" type="host">https://*.mapbox.com</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="api-mapbox" type="host">https://*.mapbox.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

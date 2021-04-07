@@ -4,7 +4,7 @@
         <div class="fulltext-search-wrapper clearfix" >
             <div class="geocoder-wrapper">
                 <div class="block-title">
-                    <span role="heading" aria-level="1">Search shop</span>
+                    <span role="heading" aria-level="1" data-bind="text: $t('Search shop')"></span>
                 </div>
                 <form class="form" data-bind="submit: searchCurrentPlaces">
                     <div class="store-search-form">
@@ -41,8 +41,8 @@
                 <span data-bind="if: $parent.displayReset()"><a data-bind="{click: $parent.resetMap.bind($parent)}"><span class="span-underline" data-bind="text: $t(viewAllLabel)"></span></a></span>
             </div>
             <div class="store-locator-display-wrapper" data-bind="{mageInit: {'mapMobile':{}}}">
-                <button id="display-store-list-mobile" class="display-btn active">List</button>
-                <button id="display-store-map-mobile" class="display-btn">Map</button>
+                <button id="display-store-list-mobile" class="display-btn active" data-bind="text: $t('List')"></button>
+                <button id="display-store-map-mobile" class="display-btn" data-bind="text: $t('Map')"></button>
             </div>
             <!-- ko if: $parent.displayedMarkers().length  < $parent.max_visible_shop -->
             <ul data-bind="{foreach: $parent.displayedMarkers()}">

@@ -209,11 +209,20 @@ define([
                 time = schedule.getTodayCloseTime(isOpen);
                 isOpen = 'Closed';
             }
+            var html_prefix = '';
+            var html_suffix = '- today until <span>'+ time +'</span><span>'+ openDay +'</span>';
             var openDay = schedule.getDayWhenStoreOpen();
             if (!openDay) {
                 openDay = '';
+                html_prefix = 'Сегодня ';
+                html_suffix = '';
             }
-            var html = '<span class="'+ statusClass +'">'+ isOpen +'</span> - today until <span>'+ time +'</span><span>'+ openDay +'</span>';
+            
+            var html = '<span class="' + statusClass +'">' + html_prefix + isOpen +'</span> ' + html_suffix;
+            var html = html.replace("Open", "ОТКРЫТО");
+            var html = html.replace("Closed", "ЗАКРЫТО");
+            var html = html.replace("today", "");
+            var html = html.replace("until", "до");
             return html;
         },
 
